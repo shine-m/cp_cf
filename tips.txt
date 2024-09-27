@@ -1,0 +1,21 @@
+All numbers at most 10^5 have at most 128 divisors
+
+in all recursive functions, first parameter gets called first except for the parameters in another called functions.
+
+return fun(a)+fun(n);
+                ^
+                |
+                this will be called first
+
+return add( fun(a)+fun(n));
+                                    ^
+                                    |
+                                    this will be  called first this time
+                                    because both the parameters are inside another function call
+
+(++mp.begin())->second     ||  is correct if we want to address to the second element of the  map        
+whereas ++(mp.begin())->second    || is incorrect , it just increments the element value  in the first element     
+
+
+two consecutive odd integers have gcd =1 always   ex: 13,15
+two consecutive integers have gcd = 1 as well         ex: 13,14

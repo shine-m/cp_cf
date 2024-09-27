@@ -1,0 +1,30 @@
+round 952_div4 :
+
+                    problem c was interesting and begylling at hte same time
+
+                    using of---- set ----- and ---- find method ------ ( built for set object ) which works in logN  saved the day
+
+
+                    and the problem E is very tricky, tghere was used a great technique for optimization
+
+round 954_div3 :
+
+                    problem c was very interesting to solve
+                    only update unique indices  sorted in ascending order with characters in string c already sorted in ascending order
+
+                    problem d was even more ineresting,convert the string to vector of integers. as the length of the string was highest 20, iterating over the entire string taking a two digit number once from every position and  minimum of the + and * with the subsequent digit. then for every outer iteration, compare the gotten response to the previous response and take the minimum. thus proceed on till n-1 and get the desired result;
+
+
+                    problem E almost smothered me. first had to map equal elements , if elements are in pair then nothing  to do with them. but if they were in odd number then they were to add in the map according to their keys set to the mod of k; adding k to a numer leads to a desired number only if the difference of the numbers are divisible by k;thus mapped all the unpaired elements from imput set into the map accorrding to their remainder after being divided  by the k and store the quotient of the division into the set of  corresponding key. then use the prefix sum array to solve the problem in less time.
+
+round937_div3 :
+
+                    1950E - Nearly Shortest Repeating Substring
+                    
+                    All numbers at most 10^5  have at most 128
+                    divisors, so this will take ∼128⋅10^5
+                    operations, which is fast enough 
+
+
+round925_div3 :
+                    problem E was one of the most interesting problems i ever encountered. here  the concern was the length of the last remaining number.so what anna will try to do is reverse the number with the most number of seros in the end. on the other hand, sasha will try to protect those numbers withs 0's in the end by concatenating them to the other numbers present . so the result will be the summation of length  of all the  numbers  - numbers that anna managed to reverse that have 0s in the end.count the number of consecutive zeros in the end  of each number and sort them in descending order.anna will have reversed the numbers that are on the odd index (if index starts from 1). so sum up the odd indexed values from overall counted length of numbers . if the resultant is greater than m, sasha wins.anna wins otherwise 

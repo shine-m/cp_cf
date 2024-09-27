@@ -1,0 +1,7 @@
+925_div3: E (math, number_theory)
+943_div3: D (dp,greedy)
+EPIC Institute of Technology Round Summer 2024 (Div. 1 + Div. 2) : C(dp)
+
+957_div3: A,B,C (tactical) D(jump{dp})
+
+958_div2: B (merge all consequitive zeros into single 0), C(bitmask)
